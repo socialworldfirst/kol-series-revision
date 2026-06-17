@@ -21,7 +21,7 @@ SECTIONS = [
 """,
   "userinput":"""
 <ul>
-<li>The pinpoint: we have already produced really good sourcing content and occupy that pillar well in English, generically. It aligns with our business direction, segmentation and positioning, and is worth investing in further.</li>
+<li>The pain point: we have already produced really good sourcing content and occupy that pillar well in English, generically. It aligns with our business direction, segmentation and positioning, and is worth investing in further.</li>
 <li>We already tell compelling "source from China" stories, but people trust their local voice and their own language.</li>
 <li>Our past China-sourcing stories are the tip of the iceberg: the English-fluent crowd already sees and likes our content. But huge segments only trust people in their own communities and countries, even if they speak English.</li>
 <li>The opportunity: move from generic "how to source from China" to specific "how to source from China for the UK", etc. That captures the real intent of each key market with a localised voice, instead of one collective English speaker.</li>
