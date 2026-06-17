@@ -169,27 +169,33 @@ SECTIONS = [
 """,
   "userinput":"""
 <ul>
-<li>Top line = views (overall reach / impressions / views). Aim for 1,000,000 views per episode (long + shorts combined).</li>
-<li>Break down via CPM using our existing data as the reference.</li>
-<li>Organic vs paid: organic ~20% of total, paid ~80%. Organic CPM is very expensive, paid CPM lower. Monitor both separately.</li>
-<li>Three cost lenses: production, organic / partnership distribution, paid. Cost per episode and cost per impression are secondary. Costs are secondary overall.</li>
-<li>True engagement rate (our true-engagement index) is a primary goal, across the organic then the paid period.</li>
-<li>Viral target: ~1 viral piece per episode. Viral = 10,000 organic views with over 2% engagement within the first 24 hours.</li>
+<li>Top line = impressions (views): 10,000,000 total across the batch, about 1,000,000 per episode (long + shorts).</li>
+<li>Engagement rate: organic over 2%, paid over 0.5%, overall over 0.65%.</li>
+<li>Viral content: 10 across the batch (about one per episode). Viral = 10,000 organic views with over 2% engagement in the first 24 hours.</li>
+<li>Monitor organic vs paid separately (~20% organic / ~80% paid). Break down via CPM using our existing data; give a total blended CPM.</li>
+<li>Costs are secondary (production / partnership-distribution / paid boosting).</li>
+<li>Secondary, evergreen check: 200,000 organic views per episode by 30 days after publish.</li>
+<li>Secondary, AI search and media SEO: list the top sourcing-from-China questions (10 per episode, 100 total); 30 days after each episode, check if our content is captured in Google AI Overview or first-page Google Search. Target ~200 first-page brand mentions across the 100 questions.</li>
 <li>Brand outcomes are secondary.</li>
 </ul>
 """,
   "updated":"""
-<p><b>Top-line metric: views.</b> Overall reach across the long-form video and its shorts combined. The target is around 1,000,000 views per episode.</p>
+<p><b>Top-line metric: impressions (views).</b> The batch target is 10,000,000 impressions across all episodes, roughly 1,000,000 per episode (long-form plus shorts).</p>
 <p class="lbl">Primary goals</p>
 <ul>
-<li><b>Views.</b> Around 1,000,000 per episode, long-form and shorts combined.</li>
-<li><b>True engagement rate.</b> Measured on our true-engagement index, tracked across the organic period and then the paid period.</li>
-<li><b>Viral hit rate.</b> At least one viral piece per episode on average. Viral means 10,000+ organic views with over 2% engagement within the first 24 hours.</li>
+<li><b>Impressions.</b> 10,000,000 total across the batch (about 1,000,000 per episode).</li>
+<li><b>Engagement rate.</b> Organic above 2%, paid above 0.5%, blended above 0.65%, on our true-engagement index.</li>
+<li><b>Viral hits.</b> 10 across the batch (about one per episode). Viral means 10,000+ organic views with over 2% engagement within the first 24 hours.</li>
 </ul>
 <p class="lbl">How we monitor reach</p>
-<p>We split organic and paid and watch each separately. Planning split is roughly 20% organic and 80% paid of total views. Organic CPM is far higher because that distribution is expensive; paid CPM is lower. We benchmark CPM off our existing data and share it with Cathy as a reference.</p>
-<p class="lbl">Secondary: cost management</p>
-<p>Costs are secondary to views. We manage three buckets: production cost, organic and partnership distribution cost, and paid boosting cost. From these we derive cost per episode and cost per impression (CPM). Brand outcomes (branded search lift, new followers, signups) are also tracked as secondary.</p>
+<p>Organic and paid are split and watched separately, planned at roughly 20% organic and 80% paid of total impressions. Organic CPM is far higher; paid CPM is lower. The blended target is about US$10 CPM (US$100,000 total spend against 10,000,000 impressions), benchmarked off our existing data.</p>
+<p class="lbl">Secondary measures</p>
+<ul>
+<li><b>Evergreen check.</b> 200,000 organic views per episode by 30 days after publish, to confirm the long-form is working as evergreen content.</li>
+<li><b>AI search and media SEO.</b> Keep a list of the top sourcing-from-China questions, 10 per episode and 100 across the batch. Thirty days after each episode goes live, check whether our content is captured in Google AI Overview or on the first page of Google Search. Target around 200 first-page or AI-Overview brand mentions across the 100 questions.</li>
+<li><b>Cost management.</b> Production, partnership-distribution and paid-boosting buckets, then cost per episode and CPM.</li>
+<li><b>Brand outcomes.</b> Branded search lift, new followers, signups.</li>
+</ul>
 """},
 
  {"id":"timeline","title":"Timeline",
@@ -205,19 +211,23 @@ SECTIONS = [
 """,
   "userinput":"""
 <ul>
-<li>Re-sequence the phases to follow the new wave structure. Timing to be confirmed.</li>
+<li>Use specific months, not weeks.</li>
+<li>First episode live in the first half of July.</li>
+<li>Then two episodes a month, through to the end of November.</li>
+<li>10 episodes in total.</li>
 </ul>
 """,
   "updated":"""
-<p>Phases re-sequenced to the new wave structure. Indicative weeks carried from the original, timing to be confirmed.</p>
-<table><thead><tr><th>Phase</th><th>Timing</th><th>Markets</th></tr></thead><tbody>
-<tr><td class="nw">0. Foundation</td><td>Week 1</td><td>Briefs, rights templates, KPI baseline</td></tr>
-<tr><td class="nw">1. UK pilot</td><td>Weeks 2-7</td><td>United Kingdom, one long-form plus ~3 shorts</td></tr>
-<tr><td class="nw">2. Pilot readout</td><td>Week 8</td><td>Measure on views, true engagement, viral rate</td></tr>
-<tr><td class="nw">3. Wave 2</td><td>Weeks 9-16</td><td>Singapore, Malaysia, Thailand, Vietnam</td></tr>
-<tr><td class="nw">4. Wave 3</td><td>Weeks 17-24</td><td>Germany, Poland, Turkey, Australia</td></tr>
-<tr><td class="nw">5. Wave 4</td><td>Later</td><td>United States, Mexico and remaining regions</td></tr>
+<p>Specific months, two episodes a month from July to November, 10 episodes in total. The UK pilot leads in early July, with a readout after the first episodes before the cadence runs on.</p>
+<table><thead><tr><th>Period</th><th>Episodes</th><th>Indicative markets</th></tr></thead><tbody>
+<tr><td class="nw">Late June to early July</td><td>Foundation</td><td>Briefs, rights templates, KPI baseline</td></tr>
+<tr><td class="nw">July (ep 1 live, first half)</td><td>Episodes 1-2</td><td>United Kingdom (pilot), Singapore</td></tr>
+<tr><td class="nw">August</td><td>Episodes 3-4</td><td>Malaysia, Thailand</td></tr>
+<tr><td class="nw">September</td><td>Episodes 5-6</td><td>Vietnam, Germany</td></tr>
+<tr><td class="nw">October</td><td>Episodes 7-8</td><td>Poland, Turkey</td></tr>
+<tr><td class="nw">November</td><td>Episodes 9-10</td><td>Australia, United States</td></tr>
 </tbody></table>
+<p>Batch 1 completes at 10 episodes by the end of November. Mexico and the remaining regions follow in a later batch. Market order is indicative.</p>
 """},
 
  {"id":"budget","title":"Budget",
@@ -236,32 +246,32 @@ SECTIONS = [
 """,
   "userinput":"""
 <ul>
-<li>Structure as: production cost + partnership cost (includes distribution) + paid boosting.</li>
+<li>Cost per episode: production US$2,000, partnership and distribution US$4,000, paid boosting US$4,000.</li>
+<li>Give a total blended CPM number.</li>
 </ul>
 """,
   "updated":"""
-<p>Budget is structured around three cost buckets, matching the cost-management view in the KPIs.</p>
-<ul>
-<li><b>Production cost.</b> The shoot and editing per episode.</li>
-<li><b>Partnership cost (includes distribution).</b> The operator fee plus distribution through the partner's own channels and any co-brand co-publishing. The per-market benchmark below sits here.</li>
-<li><b>Paid boosting cost.</b> The paid amplification behind each episode, carrying roughly 80% of total views.</li>
-</ul>
-<p class="lbl">Partnership cost: benchmarked partner fee per market</p>
-<table><thead><tr><th>Market</th><th>Planning rate</th><th>Range</th></tr></thead><tbody>
+<p>Costed per episode across the three buckets, then totalled for the batch.</p>
+<table><thead><tr><th>Bucket</th><th>Per episode</th></tr></thead><tbody>
+<tr><td class="nw">Production</td><td>US$2,000</td></tr>
+<tr><td class="nw">Partnership and distribution</td><td>US$4,000</td></tr>
+<tr><td class="nw">Paid boosting</td><td>US$4,000</td></tr>
+<tr><td class="nw">Total per episode</td><td>US$10,000</td></tr>
+</tbody></table>
+<p>Across 10 episodes that is <b>US$100,000 total</b> for Batch 1. Against the 10,000,000 impression target, the <b>blended CPM is about US$10</b>.</p>
+<p class="lbl">Reference: per-market operator fee benchmarks (sit inside the US$4,000 partnership bucket)</p>
+<table><thead><tr><th>Market</th><th>Operator fee</th><th>Range</th></tr></thead><tbody>
 <tr><td class="nw">United Kingdom</td><td>US$2,000</td><td>US$1,000 - 2,500</td></tr>
 <tr><td class="nw">Singapore</td><td>US$1,000</td><td>US$600 - 1,500</td></tr>
 <tr><td class="nw">Malaysia</td><td>US$800</td><td>US$300 - 1,000</td></tr>
 <tr><td class="nw">Thailand</td><td>US$800</td><td>US$300 - 1,000</td></tr>
-<tr><td class="nw">Vietnam</td><td>to benchmark</td><td>SEA band, est. US$500 - 1,200</td></tr>
 <tr><td class="nw">Germany</td><td>US$1,500</td><td>US$1,000 - 2,500</td></tr>
 <tr><td class="nw">Poland</td><td>US$1,500</td><td>US$1,000 - 2,000</td></tr>
-<tr><td class="nw">Turkey</td><td>to benchmark</td><td>Europe-East band, est. US$800 - 1,800</td></tr>
 <tr><td class="nw">Australia</td><td>US$1,000</td><td>US$1,000 - 2,000</td></tr>
-<tr><td class="nw">United States</td><td>to benchmark</td><td>Western premium, est. US$2,000 - 3,500</td></tr>
-<tr><td class="nw">Mexico</td><td>to benchmark</td><td>est. US$600 - 1,500</td></tr>
+<tr><td class="nw">Vietnam, Turkey, United States, Mexico</td><td>to benchmark</td><td>set per market</td></tr>
 </tbody></table>
 <p class="lbl">Notes</p>
-<p>The original ~US$8,600 total covered seven markets and is partnership cost only. New scope (Vietnam, Turkey, United States, Mexico) needs benchmarking, and production plus paid boosting are separate line items still to be priced. Once those land, restate one clean total so the headline figure matches the table (the v2 summary still quotes the old ~US$6,200 / US$9,300).</p>
+<p>Partnership now covers the operator fee plus distribution at a flat US$4,000 per episode, so the per-market creator fees become a reference point inside that bucket. The four new markets still need their own operator benchmarks.</p>
 """},
 ]
 
@@ -304,7 +314,7 @@ def build_inner():
   <div class="eyebrow">Revision workspace</div>
   <h1>Localised Sourcing KOL Video Series</h1>
   <p class="sub">Cathy's v2 on the left, the direction for changes in the middle, the updated copy below each section.</p>
-  <p class="how">Two points still open: the <b>format</b> shorts count (three versus four to five), and the <b>budget</b> still needs production, paid boosting and the new-market numbers.</p>
+  <p class="how">Two points still open: the <b>format</b> shorts count (three versus four to five), and operator-fee <b>benchmarks</b> for the four new markets (Vietnam, Turkey, United States, Mexico).</p>
   <div class="meta">Source: Localised Sourcing KOL Series Project Plan_v2.docx &middot; updated 2026-06-16 &middot; <a href="#" onclick="localStorage.removeItem('kolrev_pw');location.reload();return false;">lock device</a></div>
 </header>
 {''.join(secs)}
