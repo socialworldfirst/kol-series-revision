@@ -25,7 +25,6 @@ SECTIONS = [
 <li>We already tell compelling "source from China" stories, but people trust their local voice and their own language.</li>
 <li>Our past China-sourcing stories are the tip of the iceberg: the English-fluent crowd already sees and likes our content. But huge segments only trust people in their own communities and countries, even if they speak English.</li>
 <li>The opportunity: move from generic "how to source from China" to specific "how to source from China for the UK", etc. That captures the real intent of each key market with a localised voice, instead of one collective English speaker.</li>
-<li>Combine these angles together. Keep it active and tips-led.</li>
 </ul>
 """,
   "updated":"""
@@ -51,7 +50,7 @@ SECTIONS = [
 """,
   "userinput":"""
 <ul>
-<li>Cathy nailed the real-operator story and the payment moment. Keep her flow, it makes sense.</li>
+<li>The real-operator story and the payment moment are the strongest parts of the original and we keep them, along with the existing narrative flow.</li>
 <li>Before vs after: before we had a spokesperson; now it must be a real operator with first-hand China-sourcing experience.</li>
 <li>They talk in their own language, accent and specific market context. Not generic English "source from China" but very specific, e.g. sourcing from China into Australia: the problems, difficulties, tariffs, rules, even getting scammed by suppliers, in their local market terms.</li>
 <li>A different person every episode: sourcing influencers, real operators, or our clients. We are not hiring "anyone to do sourcing"; we find real experts on one specific country or small region's China sourcing. Regional specificity is the point.</li>
@@ -91,11 +90,7 @@ SECTIONS = [
 <p class="lbl">Language and distribution</p>
 <p>English content on WorldFirst channels; local-language content on the partner's own channels; collaboration or co-posts case by case. WorldFirst edits by default. Every agreement grants rights to repurpose and to boost the best clips.</p>
 """,
-  "userinput":"""
-<ul>
-<li>Cathy already caught this. If nothing is different, just keep her version.</li>
-</ul>
-""",
+  "userinput":None,
   "updated":"""
 <p><b>No change. Cathy's format and production model stands.</b></p>
 <p class="lbl">One point to settle</p>
@@ -175,7 +170,7 @@ SECTIONS = [
   "userinput":"""
 <ul>
 <li>Top line = views (overall reach / impressions / views). Aim for 1,000,000 views per episode (long + shorts combined).</li>
-<li>Break down via CPM using existing data, as a reference for Cathy.</li>
+<li>Break down via CPM using our existing data as the reference.</li>
 <li>Organic vs paid: organic ~20% of total, paid ~80%. Organic CPM is very expensive, paid CPM lower. Monitor both separately.</li>
 <li>Three cost lenses: production, organic / partnership distribution, paid. Cost per episode and cost per impression are secondary. Costs are secondary overall.</li>
 <li>True engagement rate (our true-engagement index) is a primary goal, across the organic then the paid period.</li>
@@ -210,11 +205,11 @@ SECTIONS = [
 """,
   "userinput":"""
 <ul>
-<li>No direct input on timing. Reflect the new wave structure.</li>
+<li>Re-sequence the phases to follow the new wave structure. Timing to be confirmed.</li>
 </ul>
 """,
   "updated":"""
-<p>Timing carried from the original plan pending your input. The phases now follow the new wave structure.</p>
+<p>Phases re-sequenced to the new wave structure. Indicative weeks carried from the original, timing to be confirmed.</p>
 <table><thead><tr><th>Phase</th><th>Timing</th><th>Markets</th></tr></thead><tbody>
 <tr><td class="nw">0. Foundation</td><td>Week 1</td><td>Briefs, rights templates, KPI baseline</td></tr>
 <tr><td class="nw">1. UK pilot</td><td>Weeks 2-7</td><td>United Kingdom, one long-form plus ~3 shorts</td></tr>
@@ -282,9 +277,9 @@ def build_inner():
     secs = []
     for i, s in enumerate(SECTIONS, 1):
         if s.get("userinput"):
-            right = f'<div class="collbl">Your input</div><div class="uinput">{s["userinput"]}</div>'
+            right = f'<div class="collbl">Direction</div><div class="uinput">{s["userinput"]}</div>'
         else:
-            right = f'<div class="collbl">Your input</div><textarea class="inp" data-sid="{s["id"]}" placeholder="drop your notes / direction for this section here"></textarea>'
+            right = '<div class="collbl">Direction</div><div class="uinput muted">No changes requested. Cathy\'s version stands.</div>'
         if s.get("updated"):
             upd = f'<div class="body">{s["updated"]}</div>'; ucls = "updated has"
         else:
@@ -308,14 +303,12 @@ def build_inner():
 <header class="page">
   <div class="eyebrow">Revision workspace</div>
   <h1>Localised Sourcing KOL Video Series</h1>
-  <p class="sub">Original (Cathy v2) on the left, your input captured in the middle, the rebuilt Updated copy below each section.</p>
-  <p class="how">Your input is now folded in section by section. Drop more in chat any time and I rebuild. The shorthand to flag: <b>format</b> shorts count (3 vs 4 to 5), and <b>budget</b> still needs production + paid + new-market numbers.</p>
+  <p class="sub">Cathy's v2 on the left, the direction for changes in the middle, the updated copy below each section.</p>
+  <p class="how">Two points still open: the <b>format</b> shorts count (three versus four to five), and the <b>budget</b> still needs production, paid boosting and the new-market numbers.</p>
   <div class="meta">Source: Localised Sourcing KOL Series Project Plan_v2.docx &middot; updated 2026-06-16 &middot; <a href="#" onclick="localStorage.removeItem('kolrev_pw');location.reload();return false;">lock device</a></div>
 </header>
 {''.join(secs)}
 <div class="foot">
-  <button id="copybtn" type="button">Copy all my input</button>
-  <span id="copymsg"></span>
   <a class="lock" href="#" onclick="localStorage.removeItem('kolrev_pw');location.reload();return false;">lock device</a>
 </div>
 """
@@ -358,6 +351,7 @@ h1{font-size:30px;line-height:1.18;letter-spacing:-.018em;font-weight:680;margin
 .uinput ul{margin:0;padding-left:18px}
 .uinput li{margin-bottom:9px}.uinput li:last-child{margin-bottom:0}
 .uinput b{font-weight:620}
+.uinput.muted{border-left-color:var(--line);color:var(--ink4);font-style:italic}
 textarea.inp{width:100%;min-height:160px;resize:vertical;font:inherit;font-size:14px;line-height:1.55;color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:10px;padding:16px 18px;outline:none;transition:border-color .15s}
 textarea.inp:focus{border-color:var(--ink3)}
 textarea.inp.filled{border-color:var(--ink);background:#fcfcfd}
