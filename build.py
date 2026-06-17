@@ -292,9 +292,7 @@ def main():
     inner = build_inner()
     blob = encrypt_payload(inner)
     html = SHELL.replace("__CSS__", CSS).replace("__PAYLOAD__", json.dumps(blob))
-    out_dir = os.path.join(HERE, "site")
-    os.makedirs(out_dir, exist_ok=True)
-    with open(os.path.join(out_dir, "index.html"), "w") as f:
+    with open(os.path.join(HERE, "index.html"), "w") as f:
         f.write(html)
     # plaintext check
     leak = any(s["original"].strip()[:40] in html for s in SECTIONS)
